@@ -1,15 +1,15 @@
-package controller;
+package org.rcruzado.candidatesystem.controller;
 
 
-import dto.ClientMetricsResponse;
-import dto.ClientResponse;
-import dto.CreateClientRequest;
+import org.rcruzado.candidatesystem.dto.ClientMetricsResponse;
+import org.rcruzado.candidatesystem.dto.ClientResponse;
+import org.rcruzado.candidatesystem.dto.CreateClientRequest;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import service.ClientService;
+import org.rcruzado.candidatesystem.service.ClientService;
 
 import java.util.List;
 

@@ -1,4 +1,3 @@
 package org.rcruzado.candidatesystem.dto;
 
-public record AuthResponse() {
-}
+public record AuthResponse(String token) {}

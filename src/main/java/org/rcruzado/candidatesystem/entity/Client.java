@@ -1,4 +1,4 @@
-package entity;
+package org.rcruzado.candidatesystem.entity;
 
 
 import jakarta.persistence.*;

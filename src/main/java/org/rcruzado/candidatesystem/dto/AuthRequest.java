@@ -1,4 +1,3 @@
 package org.rcruzado.candidatesystem.dto;
 
-public record AuthRequest() {
-}
+public record AuthRequest(String username, String password) {}

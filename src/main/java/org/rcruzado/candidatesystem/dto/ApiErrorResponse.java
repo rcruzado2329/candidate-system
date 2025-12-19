@@ -1,4 +1,9 @@
 package org.rcruzado.candidatesystem.dto;
 
-public class ApiErrorResponse {
-}
+import java.time.LocalDateTime;
+
+public record ApiErrorResponse(
+        int status,
+        String message,
+        LocalDateTime timestamp
+) {}

@@ -1,4 +1,7 @@
-package dto;
+package org.rcruzado.candidatesystem.dto;
 
-public record ClientMetricsResponse() {
-}
+public record ClientMetricsResponse(
+        long totalClients,
+        double averageAge,
+        double ageStandardDeviation
+) {}

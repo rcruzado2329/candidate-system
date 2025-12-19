@@ -1,4 +1,4 @@
-package dto;
+package org.rcruzado.candidatesystem.dto;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
@@ -9,6 +9,8 @@ import java.time.LocalDate;
 
 @Builder
 public record ClientResponse(
+    @NotBlank
+    Long id,
     @NotBlank
     String name,
     @NotBlank String lastName,

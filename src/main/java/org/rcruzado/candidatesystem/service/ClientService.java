@@ -1,8 +1,8 @@
-package service;
+package org.rcruzado.candidatesystem.service;
 
-import dto.ClientMetricsResponse;
-import dto.ClientResponse;
-import dto.CreateClientRequest;
+import org.rcruzado.candidatesystem.dto.ClientMetricsResponse;
+import org.rcruzado.candidatesystem.dto.ClientResponse;
+import org.rcruzado.candidatesystem.dto.CreateClientRequest;
 
 import java.util.List;
 

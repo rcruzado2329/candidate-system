@@ -1,7 +1,9 @@
-package mapper;
+package org.rcruzado.candidatesystem.mapper;
 
-import dto.ClientResponse;
-import entity.Client;
+import org.rcruzado.candidatesystem.dto.ClientResponse;
+import org.rcruzado.candidatesystem.entity.Client;
+
+import java.time.LocalDate;
 
 public class ClientMapper {
 
