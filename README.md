@@ -41,6 +41,15 @@ mvn spring-boot:run
 Nota:
 A nivel local, la aplicación quedará disponible en:
 👉 http://localhost:8080
+---
+
+### Repositorio Github
+https://github.com/rcruzado2329/candidate-system
+
+### Documentación de los endpoints en Swagger
+http://localhost:8080/swagger-ui/index.html
+
+
 
 ---
 
@@ -83,6 +92,7 @@ Aspiring Cloud Engineer & Backend Developer Senior & IT Business Analyst
 Especializado en AWS, Azure, Java, Node.js, NestJS, Python, MongoDB, Java/Spring Boot.
 
 ---
+
 
 
 
