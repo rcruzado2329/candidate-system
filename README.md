@@ -49,11 +49,20 @@ https://github.com/rcruzado2329/candidate-system
 ### Documentación de los endpoints en Swagger
 http://localhost:8080/swagger-ui/index.html
 
-### La colección en Postman con las llamadas a cada una de las APIs, incluyendo un par de casos ya grabados (uno con HTTP Status 200, exitoso y uno con 500, para caso de error, 422 para errores de negocio) por cada endpoint, se encuentra en la siguiente ruta del proyecto:
+### Colección del API en Postman
+La colección en Postman con las llamadas a cada una de las APIs, incluyendo un par de casos ya grabados (uno con HTTP Status 200, exitoso y uno con 500, para caso de error, 422 para errores de negocio) por cada endpoint, se encuentra en la siguiente ruta del proyecto:
 
 https://github.com/rcruzado2329/candidate-system/tree/main/src/main/resources/collection
 
-Archivo postman collecction: API_V1_Candidates.postman_collection.json
+Nombre del archivo: API_V1_Candidates.postman_collection.json
+---
+
+### Base de Datos
+La base de datos llamada candidate_db, se encuentra en la siguiente ruta del proyecto:
+
+https://github.com/rcruzado2329/candidate-system/tree/main/src/main/resources/db.migration
+
+Nombre del archivo: V1__create_clients_table.sql
 
 ---
 
@@ -96,6 +105,7 @@ Aspiring Cloud Engineer & Backend Developer Senior & IT Business Analyst
 Especializado en AWS, Azure, Java, Node.js, NestJS, Python, MongoDB, Java/Spring Boot.
 
 ---
+
 
 
 
