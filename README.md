@@ -17,15 +17,37 @@ Incluye cálculo de **total de clientes**, **edad promedio** y **desviación est
 ---
 
 ## 🛠️ Tecnologías utilizadas
-- **Java 17**
-- **Spring Boot 3.x**
-- **Maven**
-- **Lombok** (opcional)
-- **JUnit 5** para pruebas
+- **Java 17** o superior.
+- **Spring Boot 3.x** (Spring Data JPA, Spring Security, Spring Web).
+- **Maven** (Gestor de dependencias).
+- **Lombok** (opcional).
+- **MySQL** (Base de datos).
+- **Swagger/OpenAPI** (Documentación de API).
+- **JUnit 5** (Testing/pruebas).
 
 ---
+## ⚙️ Arquitectura
 
-## ⚙️ Instalación
+Este proyecto sigue una arquitectura de capas estándar para facilitar el mantenimiento y la escalabilidad:
+
+- **Controller:** Puntos de entrada de la API (REST endpoints).
+- **Service:** Lógica de negocio.
+- **Repository:** Interacción con la base de datos (Spring Data JPA).
+- **Entity/DTO:** Modelos de datos y objetos de transferencia.
+- **Config:** Configuración de seguridad.
+- **Mapper:** Mapeo de entidades
+- **Exception:** Manejo de errores y excepciones.
+- **Security:** Autenticación y JWT.
+- **Util:** Config. y generación token.
+
+
+---
+## ⚙️ Instalación y Configuración
+
+### 0. Requisitos previos
+* JDK 17 o superior instalado.
+* Maven instalado (o usa el wrapper `./mvnw`).
+* Tu IDE favorito (IntelliJ IDEA, VS Code, Eclipse).
 
 ### 1. Clonar el repositorio
 ```bash
@@ -58,6 +80,14 @@ Nombre del archivo: API_V1_Candidates.postman_collection.json
 ---
 
 ### Base de Datos
+
+Edita el archivo src/main/resources/application.properties (o .yml) con tus credenciales:
+spring.datasource.url=jdbc:mysql://localhost:3306/candidate_db
+spring.datasource.username=tu_usuario
+spring.datasource.password=tu_contraseña
+spring.jpa.hibernate.ddl-auto=update
+
+
 La base de datos llamada candidate_db, se encuentra en la siguiente ruta del proyecto:
 
 https://github.com/rcruzado2329/candidate-system/tree/main/src/main/resources/db.migration
@@ -105,6 +135,7 @@ Aspiring Cloud Engineer & Backend Developer Senior & IT Business Analyst
 Especializado en AWS, Azure, Java, Node.js, NestJS, Python, MongoDB, Java/Spring Boot.
 
 ---
+
 
 
 
